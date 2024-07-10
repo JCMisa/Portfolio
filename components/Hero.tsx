@@ -1,3 +1,5 @@
+"use client";
+
 // import { FaLocationArrow } from "react-icons/fa6";
 
 // import MagicButton from "./MagicButton";
@@ -7,6 +9,7 @@ import ShimmerButton from "./ui/ShimmerButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import { TextRevealCard } from "./ui/TextRevealCard";
+import { downloadResume } from "../data/index";
 
 const Hero = () => {
   return (
@@ -62,7 +65,7 @@ const Hero = () => {
             ></TextRevealCard>
           </p>
 
-          <a href="#about">
+          <a href="#about" onClick={downloadResume}>
             <ShimmerButton
               title="Download Resume"
               icon={<FaDownload />}

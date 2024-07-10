@@ -1,3 +1,5 @@
+import jsPDF from "jspdf";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -217,3 +219,9 @@ export const socialMedia = [
     img: "/link.svg",
   },
 ];
+
+export const downloadResume = () => {
+  let doc = new jsPDF('portrait', 'px', 'a4', false)
+  doc.addImage('https://i.ibb.co/vdb46Hr/resume.jpg', 'JPG', 0, 0, 393.867, 557) // w-393.867 h-557
+  doc.save('resume.pdf')
+}
