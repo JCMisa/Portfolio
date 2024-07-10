@@ -12,6 +12,8 @@ import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "../MagicButton";
 import { MdTrendingDown, MdTrendingFlat, MdTrendingUp } from "react-icons/md";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 
 export const BentoGrid = ({
   className,
@@ -83,6 +85,17 @@ export const BentoGridItem = ({
     navigator.clipboard.writeText(text); // put te text on device clipboard
     setCopied(true);
   };
+
+  useGSAP(() => {
+    gsap.to("#bento-title", {
+      x: 20,
+      color: "#CBACF9",
+      opacity: 1,
+      ease: "power2.inOut",
+      duration: 6,
+      scrub: 5.5,
+    });
+  }, []);
 
   return (
     <div
@@ -160,7 +173,8 @@ export const BentoGridItem = ({
           {/* add text-3xl max-w-96 , remove text-neutral-600 dark:text-neutral-300*/}
           {/* remove mb-2 mt-2 */}
           <div
-            className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}
+            id="bento-title"
+            className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10 opacity-0 -ml-5`}
           >
             {title}
           </div>
