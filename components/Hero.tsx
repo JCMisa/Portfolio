@@ -1,7 +1,9 @@
 // import { FaLocationArrow } from "react-icons/fa6";
 
 // import MagicButton from "./MagicButton";
+import { FaDownload } from "react-icons/fa";
 import { BackgroundBeams } from "./ui/BackgroundBeams";
+import ShimmerButton from "./ui/ShimmerButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import { TextRevealCard } from "./ui/TextRevealCard";
@@ -54,11 +56,20 @@ const Hero = () => {
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             <TextRevealCard
-              text="Hi! I'm John Carlo S. Misa"
-              revealText="Your Developer            "
+              text="Hi! I'm John Carlo"
+              revealText="Your Developer "
               className="flex text-center align-middle items-center justify-center"
             ></TextRevealCard>
           </p>
+
+          <a href="#about">
+            <ShimmerButton
+              title="Download Resume"
+              icon={<FaDownload />}
+              position="left"
+              otherClasses="hover:scale-[0.9] transition-all"
+            />
+          </a>
 
           {/* <a href="#about">
             <MagicButton
