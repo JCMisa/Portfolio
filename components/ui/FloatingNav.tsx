@@ -32,7 +32,7 @@ export const FloatingNav = ({
       if (scrollYProgress.get() < 0.05) {
         setVisible(false);
       } else {
-        if (direction < 0) {
+        if (direction < 0 || direction > 0) {
           setVisible(true);
         } else {
           setVisible(false);
