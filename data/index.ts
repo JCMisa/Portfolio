@@ -1,4 +1,15 @@
 import jsPDF from "jspdf";
+import projVid1 from "@/videos/finatica-vid.mp4";
+import projVid2 from "@/videos/restop-vid.mp4";
+import projVid3 from "@/videos/curatech-vid.mp4";
+import projVid4 from "@/videos/loom-vid.mp4";
+import projVid5 from "@/videos/gemini-vid.mp4";
+import projVid6 from "@/videos/dictionairy-vid.mp4";
+import projVid7 from "@/videos/netflix-vid.mp4";
+import projVid8 from "@/videos/Apple iPhone - Google Chrome 2024-07-11 16-39-55.mp4";
+import projVid9 from "@/videos/sou-vid.mp4";
+import projVid10 from "@/videos/spotify-vid.mp4";
+
 
 export const navItems = [
   { name: "About", link: "#about" },
@@ -219,6 +230,69 @@ export const socialMedia = [
     img: "/link.svg",
   },
 ];
+
+export const projectVideos = [
+  {
+    id: 1,
+    name: "Finatica",
+    video: projVid1,
+    techStack: "React and .NetCore"
+  },
+  {
+    id: 2,
+    name: "ReStop",
+    video: projVid2,
+    techStack: "React and Java SpringBoot"
+  },
+  {
+    id: 3,
+    name: "CuraTech",
+    video: projVid3,
+    techStack: "NextJS and Appwrite"
+  },
+  {
+    id: 4,
+    name: "Loom",
+    video: projVid4,
+    techStack: "NextJS and Clerk"
+  },
+  {
+    id: 5,
+    name: "Gemini Clone",
+    video: projVid5,
+    techStack: "React and Gemini API"
+  },
+  {
+    id: 6,
+    name: "dictionAIry",
+    video: projVid6,
+    techStack: "React and Gemini API"
+  },
+  {
+    id: 7,
+    name: "Netflix Clone",
+    video: projVid7,
+    techStack: "React"
+  },
+  {
+    id: 8,
+    name: "Apple Website",
+    video: projVid8,
+    techStack: "React and ThreeJS"
+  },
+  {
+    id: 9,
+    name: "SOU MS",
+    video: projVid9,
+    techStack: "Javascript and PHP"
+  },
+  {
+    id: 10,
+    name: "Spotify Clone",
+    video: projVid10,
+    techStack: "React"
+  },
+]
 
 export const downloadResume = () => {
   let doc = new jsPDF('portrait', 'px', 'a4', false)
