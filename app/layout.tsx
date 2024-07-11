@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "JCM's Portfolio",
   description: "John Carlo S. Misa Official Portfolio",
+  icons: {
+    icon: ["/jc-logo.avif"],
+  },
 };
 
 export default function RootLayout({
