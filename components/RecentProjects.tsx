@@ -65,7 +65,11 @@ const RecentProjects = () => {
                       key={icon}
                       className="border border-white/[0.2] rounded-full"
                     >
-                      <img src={icon} alt={icon} className="p-2" />
+                      <img
+                        src={icon}
+                        alt={icon}
+                        className="p-2 w-14 h-14 rounded-full"
+                      />
                     </div>
                   ))}
                 </div>
