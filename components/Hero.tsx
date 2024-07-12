@@ -57,13 +57,13 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+          <div className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             <TextRevealCard
               text="Hi! I'm John Carlo"
               revealText="Your Developer "
               className="flex text-center align-middle items-center justify-center"
-            ></TextRevealCard>
-          </p>
+            />
+          </div>
 
           <a href="#about" onClick={downloadResume}>
             <ShimmerButton

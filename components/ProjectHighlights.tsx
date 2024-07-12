@@ -29,10 +29,10 @@ const ProjectHighlights = () => {
     },
   ];
   return (
-    <>
+    <div id="projects">
       <TypewriterEffect words={words} className="mb-5" />
       <EmblaCarousel slides={SLIDES} options={OPTIONS} />
-    </>
+    </div>
   );
 };
 

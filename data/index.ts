@@ -160,14 +160,14 @@ export const companies = [
   {
     id: 1,
     name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    img: "/cloudinary.svg",
+    nameImg: "/cloudinary.svg",
   },
   {
     id: 2,
     name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    img: "/appwrite.svg",
+    nameImg: "/appwrite.svg",
   },
   {
     id: 3,
@@ -177,9 +177,9 @@ export const companies = [
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "microsoft",
+    img: "/microsoft.svg",
+    nameImg: "/microsoft.svg",
   },
   {
     id: 5,

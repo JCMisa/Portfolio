@@ -18,19 +18,19 @@ const RecentProjects = () => {
   };
 
   return (
-    <div className="py-20">
+    <div className="py-20 container mx-auto flex flex-col items-center justify-center">
       <h1 className="heading">
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-32 mt-10">
+      <div className="grid lg:grid-cols-2 sm:grid-cols-1 items-center justify-center p-4 lg:gap-x-60 lg:gap-y-32 sm:gap-y-32 mt-12">
         {projects.map((item) => (
           <div
-            className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
+            className="sm:h-[41rem] sm-[570px] lg:min-h-[32.5rem] lg:h-[32rem] flex items-center justify-center sm:w-96 w-[80vw]"
             key={item.id}
           >
             <CardContainer className="inter-var">
-              <CardBody className="relative group/card  dark:hover:shadow-2xl dark:hover:shadow-pink-600/[0.1] dark:bg-[#13162d] dark:border-purple/[1] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
+              <CardBody className="relative group/card sm:w-[570px]  dark:hover:shadow-2xl dark:hover:shadow-pink-600/[0.1] dark:bg-[#13162d] dark:border-purple/[1] border-black/[0.1] w-auto h-auto rounded-xl p-6 border">
                 <CardItem
                   translateZ="50"
                   className="text-xl font-bold text-neutral-600 dark:text-purple"
@@ -88,9 +88,9 @@ const RecentProjects = () => {
                     as={Link}
                     href={item.live}
                     target="_blank"
-                    className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold cursor-pointer hover:scale-[1.10] hover:shadow-pink-600/[1.3]"
+                    className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold cursor-pointer hover:scale-[1.10] hover:shadow-pink-600/[1.3] flex gap-2 justify-center items-center"
                   >
-                    Visit Live
+                    Visit Live <FaLocationArrow />
                   </CardItem>
                 </div>
               </CardBody>
