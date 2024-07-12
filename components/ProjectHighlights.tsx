@@ -15,7 +15,7 @@ const ProjectHighlights = () => {
     },
     {
       text: "Skills",
-      className: "text-blue-500 dark:text-blue-500",
+      className: "text-purple dark:text-purple",
     },
     {
       text: ".",
@@ -25,7 +25,7 @@ const ProjectHighlights = () => {
     },
     {
       text: "Results",
-      className: "text-blue-500 dark:text-blue-500",
+      className: "text-purple dark:text-purple",
     },
   ];
   return (
