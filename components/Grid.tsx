@@ -17,15 +17,17 @@ const Grid = () => {
   useGSAP(() => {
     gsap.to("#about", {
       scale: 1,
-      opacity: 1,
       ease: "power2.inOut",
-      duration: 2,
-      scrub: 5.5,
+      duration: 6,
+      scrollTrigger: {
+        trigger: "#about",
+        scrub: 3.8,
+      },
     });
   }, []);
 
   return (
-    <section id="about" className="scale-[0.5] opacity-0">
+    <section id="about" className="scale-[0.7]">
       <BentoGrid className="w-full py-20">
         {gridItems.map((item, i) => (
           <BentoGridItem

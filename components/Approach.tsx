@@ -1,14 +1,29 @@
+"use client";
+
 import React from "react";
 import { EvervaultCard, Icon } from "./ui/EvervaultCard";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 
 export function Approach() {
+  useGSAP(() => {
+    gsap.to("#skills", {
+      opacity: 1,
+      ease: "power2.inOut",
+      duration: 4,
+      scrollTrigger: {
+        trigger: "#skills",
+        scrub: 3.8,
+      },
+    });
+  }, []);
   return (
     <div className="w-full py-20">
-      <h1 className="heading">
-        My <span className="text-purple">Soft Skills</span>
+      <h1 className="heading opacity-0" id="skills">
+        My <span className="text-purple"> Soft Skills </span>
       </h1>
-      <section className="flex lg:flex-row sm:flex-col sm:gap-9 lg:gap-3 mt-8">
-        <div className="border border-black/[0.2] dark:border-white/[0.2] flex flex-col items-start max-w-sm mx-auto p-4 relative h-[30rem]">
+      <section className="flex lg:flex-row flex-col sm:gap-9 lg:gap-3 mt-8">
+        <div className="border border-black/[0.2] dark:border-white/[0.2] flex flex-col items-start max-w-sm mx-auto p-4 relative sm:h-[25rem] lg:h-[30rem]">
           <Icon className="absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black" />
           <Icon className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black" />
           <Icon className="absolute h-6 w-6 -top-3 -right-3 dark:text-white text-black" />
@@ -27,7 +42,7 @@ export function Approach() {
           </p>
         </div>
 
-        <div className="border border-black/[0.2] dark:border-white/[0.2] flex flex-col items-start max-w-sm mx-auto p-4 relative h-[30rem]">
+        <div className="border border-black/[0.2] dark:border-white/[0.2] flex flex-col items-start max-w-sm mx-auto p-4 relative sm:h-[25rem] lg:h-[30rem]">
           <Icon className="absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black" />
           <Icon className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black" />
           <Icon className="absolute h-6 w-6 -top-3 -right-3 dark:text-white text-black" />
@@ -47,7 +62,7 @@ export function Approach() {
           </p>
         </div>
 
-        <div className="border border-black/[0.2] dark:border-white/[0.2] flex flex-col items-start max-w-sm mx-auto p-4 relative h-[30rem]">
+        <div className="border border-black/[0.2] dark:border-white/[0.2] flex flex-col items-start max-w-sm mx-auto p-4 relative sm:h-[25rem] lg:h-[30rem]">
           <Icon className="absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black" />
           <Icon className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black" />
           <Icon className="absolute h-6 w-6 -top-3 -right-3 dark:text-white text-black" />

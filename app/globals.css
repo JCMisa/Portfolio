@@ -3,15 +3,18 @@
 @tailwind utilities;
 
 body::-webkit-scrollbar {
+    display: none;
     width: 5px;
 }
 
 body::-webkit-scrollbar-track {
+    display: none;
     background-color: #000319;
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #5c1fb9;
+    display: none;
+    background-color: #403888;
     border-radius: 20px;
 }
 

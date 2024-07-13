@@ -1,13 +1,29 @@
 /* eslint-disable @next/next/no-img-element */
+"use client";
 import React from "react";
 
 import { workExperience } from "@/data";
 import { Button } from "./ui/MovingBorders";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 
 const Experience = () => {
+  useGSAP(() => {
+    gsap.to("#academic", {
+      y: -20,
+      opacity: 1,
+      ease: "power2.inOut",
+      duration: 4,
+      scrollTrigger: {
+        trigger: "#academic",
+        scrub: 3.8,
+      },
+    });
+  }, []);
+
   return (
     <div className="py-20 w-full">
-      <h1 className="heading">
+      <h1 className="heading opacity-0" id="academic">
         My <span className="text-purple">academic experience</span>
       </h1>
 

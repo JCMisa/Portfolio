@@ -5,12 +5,25 @@ import React from "react";
 
 import { testimonials } from "@/data";
 import { InfiniteMovingCards } from "./ui/InfiniteCards";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 // import { TestimonialForm } from "./TestemonialForm";
 
 const Clients = () => {
+  useGSAP(() => {
+    gsap.to("#client", {
+      opacity: 1,
+      ease: "power2.inOut",
+      duration: 4,
+      scrollTrigger: {
+        trigger: "#client",
+        scrub: 3.8,
+      },
+    });
+  }, []);
   return (
     <section id="testimonials" className="py-20 w-full">
-      <h1 className="heading">
+      <h1 className="heading opacity-0" id="client">
         Testimonials from
         <span className="text-purple"> satisfied clients</span>
       </h1>

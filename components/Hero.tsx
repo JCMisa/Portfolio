@@ -10,8 +10,30 @@ import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import { TextRevealCard } from "./ui/TextRevealCard";
 import { downloadResume } from "../data/index";
+import Lottie from "react-lottie";
+import { useState } from "react";
+import animationData from "@/data/confetti.json";
+import MagicButton from "./MagicButton";
 
 const Hero = () => {
+  const [copied, setCopied] = useState(false);
+
+  const defaultOptions = {
+    loop: copied,
+    autoplay: copied,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+
+  const handleCopy = () => {
+    if (!copied) {
+      downloadResume(); // download the resume
+    }
+    setCopied((prev) => !prev);
+  };
+
   return (
     <div className="pb-20 pt-36" id="hero">
       {/**
@@ -65,14 +87,37 @@ const Hero = () => {
             />
           </div>
 
-          <a href="#about" onClick={downloadResume}>
-            <ShimmerButton
+          <div className="mt-5 relative">
+            <div
+              className={`absolute -bottom-5 left-0 ${
+                copied ? "block" : "hidden"
+              }`}
+            >
+              <Lottie options={defaultOptions} height={200} width={400} />
+            </div>
+
+            <div
+              className={`absolute -bottom-5 right-0 ${
+                copied ? "block" : "hidden"
+              }`}
+            >
+              <Lottie options={defaultOptions} height={200} width={400} />
+            </div>
+          </div>
+
+          {/* <ShimmerButton
               title="Download Resume"
               icon={<FaDownload />}
               position="left"
               otherClasses="hover:scale-[0.9] transition-all"
-            />
-          </a>
+            /> */}
+          <MagicButton
+            title={copied ? "Resume Downloaded!" : "Download Resume"}
+            icon={<FaDownload />}
+            position="left"
+            handleClick={handleCopy}
+            otherClasses="!bg-[#161A31]"
+          />
 
           {/* <a href="#about">
             <MagicButton

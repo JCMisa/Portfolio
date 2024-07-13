@@ -9,6 +9,8 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import { projects } from "@/data";
 import { FaGithub } from "react-icons/fa";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 // import { PinContainer } from "./ui/Pin";
 
 const RecentProjects = () => {
@@ -17,9 +19,29 @@ const RecentProjects = () => {
     setDes((prevState) => !prevState);
   };
 
+  useGSAP(() => {
+    gsap.to("#recent-proj", {
+      y: -20,
+      opacity: 1,
+      ease: "power2.inOut",
+      duration: 4,
+      scrollTrigger: {
+        trigger: "#recent-proj",
+        scrub: 3.8,
+      },
+    });
+  }, []);
+
   return (
     <div className="py-20 container mx-auto flex flex-col items-center justify-center">
-      <h1 className="heading">
+      <div className="w-full absolute left-0 -bottom-572 min-h-96">
+        <img
+          src="/bubble-bg.svg"
+          alt="bubble"
+          className="w-full h-full opacity-50 "
+        />
+      </div>
+      <h1 className="heading" id="recent-proj">
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
       </h1>

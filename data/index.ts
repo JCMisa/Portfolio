@@ -212,15 +212,18 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "/github.svg",
+    link: "https://github.com/JCMisa"
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/facebook.svg",
+    link: "https://www.facebook.com/johncarlomisa26/"
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "/linkedin.svg",
+    link: "https://www.linkedin.com/in/john-carlo-misa-80a1b5208/"
   },
 ];
 
