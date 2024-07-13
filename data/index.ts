@@ -1,15 +1,4 @@
 import jsPDF from "jspdf";
-import projVid1 from "@/videos/finatica-vid.mp4";
-import projVid2 from "@/videos/restop-vid.mp4";
-import projVid3 from "@/videos/curatech-vid.mp4";
-import projVid4 from "@/videos/loom-vid.mp4";
-import projVid5 from "@/videos/gemini-vid.mp4";
-import projVid6 from "@/videos/dictionairy-vid.mp4";
-import projVid7 from "@/videos/netflix-vid.mp4";
-import projVid8 from "@/videos/Apple iPhone - Google Chrome 2024-07-11 16-39-55.mp4";
-import projVid9 from "@/videos/sou-vid.mp4";
-import projVid10 from "@/videos/spotify-vid.mp4";
-
 
 export const navItems = [
   { name: "About", link: "#about" },
@@ -126,33 +115,33 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      `Let's be honest, hiring a developer can feel like wrangling kittens. But John Carlo was a breath of fresh air! They tackled both the front-end and back-end of my e-commerce website with the grace of a ballerina...well, maybe a slightly caffeinated ballerina. Jokes aside, his code was clean, efficient, and somehow made sense even to a non-techie like me. If you need a full-stack developer who can get things done without the developer drama, He's your person.`,
+    name: "Reden Samudio",
+    title: "DEPED Teacher",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      `Let's be honest, hiring a developer can feel like wrangling kittens. But John Carlo was a breath of fresh air! They tackled both the front-end and back-end of my e-commerce website with the grace of a ballerina...well, maybe a slightly caffeinated ballerina. Jokes aside, his code was clean, efficient, and somehow made sense even to a non-techie like me. If you need a full-stack developer who can get things done without the developer drama, He's your person.`,
+    name: "Reden Samudio",
+    title: "DEPED Teacher",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      `Let's be honest, hiring a developer can feel like wrangling kittens. But John Carlo was a breath of fresh air! They tackled both the front-end and back-end of my e-commerce website with the grace of a ballerina...well, maybe a slightly caffeinated ballerina. Jokes aside, his code was clean, efficient, and somehow made sense even to a non-techie like me. If you need a full-stack developer who can get things done without the developer drama, He's your person.`,
+    name: "Reden Samudio",
+    title: "DEPED Teacher",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      `Let's be honest, hiring a developer can feel like wrangling kittens. But John Carlo was a breath of fresh air! They tackled both the front-end and back-end of my e-commerce website with the grace of a ballerina...well, maybe a slightly caffeinated ballerina. Jokes aside, his code was clean, efficient, and somehow made sense even to a non-techie like me. If you need a full-stack developer who can get things done without the developer drama, He's your person.`,
+    name: "Reden Samudio",
+    title: "DEPED Teacher",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      `Let's be honest, hiring a developer can feel like wrangling kittens. But John Carlo was a breath of fresh air! They tackled both the front-end and back-end of my e-commerce website with the grace of a ballerina...well, maybe a slightly caffeinated ballerina. Jokes aside, his code was clean, efficient, and somehow made sense even to a non-techie like me. If you need a full-stack developer who can get things done without the developer drama, He's your person.`,
+    name: "Reden Samudio",
+    title: "DEPED Teacher",
   },
 ];
 
@@ -239,61 +228,61 @@ export const projectVideos = [
   {
     id: 1,
     name: "Finatica",
-    video: projVid1,
+    video: "/projVid/finatica-vid.mp4",
     techStack: "React and .NetCore"
   },
   {
     id: 2,
     name: "ReStop",
-    video: projVid2,
+    video: "/projVid/restop-vid.mp4",
     techStack: "React and Java SpringBoot"
   },
   {
     id: 3,
     name: "CuraTech",
-    video: projVid3,
+    video: "/projVid/curatech-vid.mp4",
     techStack: "NextJS and Appwrite"
   },
   {
     id: 4,
     name: "Loom",
-    video: projVid4,
+    video: "/projVid/loom-vid.mp4",
     techStack: "NextJS and Clerk"
   },
   {
     id: 5,
     name: "Gemini Clone",
-    video: projVid5,
+    video: "/projVid/gemini-vid.mp4",
     techStack: "React and Gemini API"
   },
   {
     id: 6,
     name: "dictionAIry",
-    video: projVid6,
+    video: "/projVid/dictionairy-vid.mp4",
     techStack: "React and Gemini API"
   },
   {
     id: 7,
     name: "Netflix Clone",
-    video: projVid7,
+    video: "/projVid/netflix-vid.mp4",
     techStack: "React"
   },
   {
     id: 8,
     name: "Apple Website",
-    video: projVid8,
+    video: "/projVid/Apple iPhone - Google Chrome 2024-07-11 16-39-55.mp4",
     techStack: "React and ThreeJS"
   },
   {
     id: 9,
     name: "SOU MS",
-    video: projVid9,
+    video: "/projVid/sou-vid.mp4",
     techStack: "Javascript and PHP"
   },
   {
     id: 10,
     name: "Spotify Clone",
-    video: projVid10,
+    video: "/projVid/spotify-vid.mp4",
     techStack: "React"
   },
 ]

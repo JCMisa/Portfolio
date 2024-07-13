@@ -29,7 +29,7 @@ type PropType = {
 const EmblaCarousel: React.FC<PropType> = (props) => {
   const { slides, options } = props;
   const [emblaRef, emblaApi] = useEmblaCarousel(options, [
-    Autoplay({ playOnInit: false, delay: 4000 }),
+    Autoplay({ playOnInit: true, delay: 4000 }),
   ]);
   const tweenFactor = useRef(0);
   const tweenNodes = useRef<HTMLElement[]>([]);
@@ -133,8 +133,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                   >
                     <source src={projectVideos[index].video} type="video/mp4" />
                   </video> */}
-                  <NextVideo
-                    src={projectVideos[index].video}
+                  <video
                     autoPlay={true}
                     controls={false}
                     loop={true}
@@ -142,7 +141,9 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                     playsInline
                     preload="none"
                     className="relative"
-                  />
+                  >
+                    <source src={projectVideos[index].video} type="video/mp4" />
+                  </video>
                   <p className="absolute top-2 left-3 text-purple bg-gray-900 bg-opacity-50 backdrop-filter backdrop-blur-md px-4 py-2 rounded-md text-xl hover:scale-[1.10] transition-all z-50">
                     {projectVideos[index].name}
                   </p>
