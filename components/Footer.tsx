@@ -37,7 +37,7 @@ const Footer = () => {
           <span className="text-purple">reality</span>?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Dont&apos;t wait! Get in touch today and see how I can help you🤗
+          Don&apos;t wait! Get in touch today and see how I can help you🤗
         </p>
         <a href="mailto:johncarlomisa399@gmail.com">
           <MagicButton
