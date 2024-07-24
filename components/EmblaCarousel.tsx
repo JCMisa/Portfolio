@@ -147,7 +147,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                   <p className="absolute top-2 left-3 text-purple bg-gray-900 bg-opacity-50 backdrop-filter backdrop-blur-md px-4 py-2 rounded-md text-xl hover:scale-[1.10] transition-all z-50">
                     {projectVideos[index].name}
                   </p>
-                  <p className="absolute bottom-2 left-4 bg-gray-600 py-1 px-3 rounded-md hover:scale-[1.10] transition-all">
+                  <p className="absolute bottom-2 left-4 text-white bg-gray-600 py-1 px-3 rounded-md hover:scale-[1.10] transition-all">
                     {projectVideos[index].techStack}
                   </p>
                 </div>

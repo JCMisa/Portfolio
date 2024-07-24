@@ -41,7 +41,7 @@ const RecentProjects = () => {
           className="w-full h-full opacity-50 "
         />
       </div>
-      <h1 className="heading" id="recent-proj">
+      <h1 className="heading text-white" id="recent-proj">
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
       </h1>
@@ -52,17 +52,17 @@ const RecentProjects = () => {
             key={item.id}
           >
             <CardContainer className="inter-var">
-              <CardBody className="relative group/card sm:w-[570px]  dark:hover:shadow-2xl dark:hover:shadow-pink-600/[0.1] dark:bg-[#13162d] dark:border-purple/[1] border-black/[0.1] w-auto h-auto rounded-xl p-6 border">
+              <CardBody className="relative group/card sm:w-[570px]  hover:shadow-2xl hover:shadow-pink-600/[0.1] bg-[#13162d] border-purple/[1] w-auto h-auto rounded-xl p-6 border">
                 <CardItem
                   translateZ="50"
-                  className="text-xl font-bold text-neutral-600 dark:text-purple"
+                  className="text-xl font-bold text-purple"
                 >
                   {item.title}
                 </CardItem>
                 <CardItem
                   as="p"
                   translateZ="60"
-                  className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+                  className="text-sm max-w-sm mt-2 text-neutral-300"
                 >
                   {item.des.slice(0, 85)}{" "}
                   <span className={`${des ? "" : "hidden"}`}>
@@ -101,7 +101,7 @@ const RecentProjects = () => {
                     as={Link}
                     href={item.github}
                     target="__blank"
-                    className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white flex flex-row gap-2 cursor-pointer hover:scale-[1.10] hover:shadow-pink-600/[0.1]"
+                    className="px-4 py-2 rounded-xl text-xs font-normal text-white flex flex-row gap-2 cursor-pointer hover:scale-[1.10] hover:shadow-pink-600/[0.1]"
                   >
                     Github <FaGithub />
                   </CardItem>
@@ -110,7 +110,7 @@ const RecentProjects = () => {
                     as={Link}
                     href={item.live}
                     target="_blank"
-                    className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold cursor-pointer hover:scale-[1.10] hover:shadow-pink-600/[1.3] flex gap-2 justify-center items-center"
+                    className="px-4 py-2 rounded-xl bg-white text-black text-xs font-bold cursor-pointer hover:scale-[1.10] hover:shadow-pink-600/[1.3] flex gap-2 justify-center items-center"
                   >
                     Visit Live <FaLocationArrow />
                   </CardItem>

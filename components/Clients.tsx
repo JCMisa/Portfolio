@@ -23,7 +23,7 @@ const Clients = () => {
   }, []);
   return (
     <section id="testimonials" className="py-20 w-full">
-      <h1 className="heading opacity-0" id="client">
+      <h1 className="heading opacity-0 text-white" id="client">
         Testimonials from
         <span className="text-purple"> satisfied clients</span>
       </h1>

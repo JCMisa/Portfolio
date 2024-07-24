@@ -23,7 +23,7 @@ const Experience = () => {
 
   return (
     <div className="py-20 w-full">
-      <h1 className="heading opacity-0" id="academic">
+      <h1 className="heading opacity-0 text-white" id="academic">
         My <span className="text-purple">academic experience</span>
       </h1>
 
@@ -44,7 +44,7 @@ const Experience = () => {
               borderRadius: `calc(1.75rem* 0.96)`,
             }}
             // remove bg-white dark:bg-slate-900
-            className="flex-1 text-black dark:text-white border-neutral-200 dark:border-slate-800"
+            className="flex-1 text-white border-slate-800"
           >
             <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
               <img

@@ -32,7 +32,10 @@ const Footer = () => {
       </div>
 
       <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45vw] opacity-0" id="footer-head">
+        <h1
+          className="heading lg:max-w-[45vw] opacity-0 text-white"
+          id="footer-head"
+        >
           Ready to turn your <span className="text-purple">ideas</span> into{" "}
           <span className="text-purple">reality</span>?
         </h1>
