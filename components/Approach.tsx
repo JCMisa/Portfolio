@@ -19,7 +19,7 @@ export function Approach() {
   }, []);
   return (
     <div className="w-full py-20">
-      <h1 className="heading opacity-0" id="skills">
+      <h1 className="heading opacity-0 text-white" id="skills">
         My <span className="text-purple"> Soft Skills </span>
       </h1>
       <section className="flex lg:flex-row flex-col sm:gap-9 lg:gap-3 mt-8">

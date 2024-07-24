@@ -10,7 +10,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I develop solutions that bridge the gap between user needs and business goals",
+    title:
+      "I develop solutions that bridge the gap between user needs and business goals",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -97,7 +98,13 @@ export const projects = [
     title: "CuraTech: Effortless Appointments",
     des: "CuraTech simplifies healthcare scheduling with a web app featuring dedicated admin and patient interfaces.",
     img: "/curatech-img.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/appwrite.jpeg", "/twilio.svg"],
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/appwrite.jpeg",
+      "/twilio.svg",
+    ],
     github: "https://github.com/JCMisa/CuraTech-HealthCare",
     live: "https://cura-tech-health-care.vercel.app/",
   },
@@ -110,36 +117,76 @@ export const projects = [
     github: "https://github.com/JCMisa/apple-website",
     live: "https://apple-website-misa.vercel.app/",
   },
+  {
+    id: 5,
+    title: "AI Interview Mocker (AIIM)",
+    des: "Prepare for interviews with AI-generated questions, record your answers, and receive ratings & feedback based on AI analysis and your speech.",
+    img: "/aiim-img.png",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/gemini.svg",
+      "/neondb.png",
+      "/drizzle.png",
+    ],
+    github: "https://github.com/JCMisa/ai-interview-mocker",
+    live: "https://misa-interview-mocker.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "ReUp: AI Resume Builder",
+    des: "Create stunning modern resumes effortlessly with our AI-powered tool. Generate, customize, download, and share your professional resume in minutes.",
+    img: "/reup-img.png",
+    iconLists: [
+      "/next.svg",
+      "/c.svg",
+      "/gemini.svg",
+      "/neondb.png",
+      "/drizzle.png",
+    ],
+    github: "https://github.com/JCMisa/ai-resume-builder",
+    live: "https://misa-ai-resume-builder.vercel.app/",
+  },
+  {
+    id: 7,
+    title: "DocSync: Real-time Collaborative Document Editor",
+    des: "Edit, view, and write documents in real-time with others. Share and collaborate seamlessly with email invites. Secure and reliable document management.",
+    img: "/docsync-img.png",
+    iconLists: [
+      "/next.svg",
+      "/liveblocks.png",
+      "/sentry.png",
+      "/shadcn.png",
+      "/tail.svg",
+    ],
+    github: "https://github.com/JCMisa/realtime-app",
+    live: "https://docsync-flax.vercel.app/",
+  },
 ];
 
 export const testimonials = [
   {
-    quote:
-      `Let's be honest, hiring a developer can feel like wrangling kittens. But John Carlo was a breath of fresh air! They tackled both the front-end and back-end of my e-commerce website with the grace of a ballerina...well, maybe a slightly caffeinated ballerina. Jokes aside, his code was clean, efficient, and somehow made sense even to a non-techie like me. If you need a full-stack developer who can get things done without the developer drama, He's your person.`,
+    quote: `Let's be honest, hiring a developer can feel like wrangling kittens. But John Carlo was a breath of fresh air! They tackled both the front-end and back-end of my e-commerce website with the grace of a ballerina...well, maybe a slightly caffeinated ballerina. Jokes aside, his code was clean, efficient, and somehow made sense even to a non-techie like me. If you need a full-stack developer who can get things done without the developer drama, He's your person.`,
     name: "Reden Samudio",
     title: "DEPED Teacher",
   },
   {
-    quote:
-      `Let's be honest, hiring a developer can feel like wrangling kittens. But John Carlo was a breath of fresh air! They tackled both the front-end and back-end of my e-commerce website with the grace of a ballerina...well, maybe a slightly caffeinated ballerina. Jokes aside, his code was clean, efficient, and somehow made sense even to a non-techie like me. If you need a full-stack developer who can get things done without the developer drama, He's your person.`,
+    quote: `Let's be honest, hiring a developer can feel like wrangling kittens. But John Carlo was a breath of fresh air! They tackled both the front-end and back-end of my e-commerce website with the grace of a ballerina...well, maybe a slightly caffeinated ballerina. Jokes aside, his code was clean, efficient, and somehow made sense even to a non-techie like me. If you need a full-stack developer who can get things done without the developer drama, He's your person.`,
     name: "Reden Samudio",
     title: "DEPED Teacher",
   },
   {
-    quote:
-      `Let's be honest, hiring a developer can feel like wrangling kittens. But John Carlo was a breath of fresh air! They tackled both the front-end and back-end of my e-commerce website with the grace of a ballerina...well, maybe a slightly caffeinated ballerina. Jokes aside, his code was clean, efficient, and somehow made sense even to a non-techie like me. If you need a full-stack developer who can get things done without the developer drama, He's your person.`,
+    quote: `Let's be honest, hiring a developer can feel like wrangling kittens. But John Carlo was a breath of fresh air! They tackled both the front-end and back-end of my e-commerce website with the grace of a ballerina...well, maybe a slightly caffeinated ballerina. Jokes aside, his code was clean, efficient, and somehow made sense even to a non-techie like me. If you need a full-stack developer who can get things done without the developer drama, He's your person.`,
     name: "Reden Samudio",
     title: "DEPED Teacher",
   },
   {
-    quote:
-      `Let's be honest, hiring a developer can feel like wrangling kittens. But John Carlo was a breath of fresh air! They tackled both the front-end and back-end of my e-commerce website with the grace of a ballerina...well, maybe a slightly caffeinated ballerina. Jokes aside, his code was clean, efficient, and somehow made sense even to a non-techie like me. If you need a full-stack developer who can get things done without the developer drama, He's your person.`,
+    quote: `Let's be honest, hiring a developer can feel like wrangling kittens. But John Carlo was a breath of fresh air! They tackled both the front-end and back-end of my e-commerce website with the grace of a ballerina...well, maybe a slightly caffeinated ballerina. Jokes aside, his code was clean, efficient, and somehow made sense even to a non-techie like me. If you need a full-stack developer who can get things done without the developer drama, He's your person.`,
     name: "Reden Samudio",
     title: "DEPED Teacher",
   },
   {
-    quote:
-      `Let's be honest, hiring a developer can feel like wrangling kittens. But John Carlo was a breath of fresh air! They tackled both the front-end and back-end of my e-commerce website with the grace of a ballerina...well, maybe a slightly caffeinated ballerina. Jokes aside, his code was clean, efficient, and somehow made sense even to a non-techie like me. If you need a full-stack developer who can get things done without the developer drama, He's your person.`,
+    quote: `Let's be honest, hiring a developer can feel like wrangling kittens. But John Carlo was a breath of fresh air! They tackled both the front-end and back-end of my e-commerce website with the grace of a ballerina...well, maybe a slightly caffeinated ballerina. Jokes aside, his code was clean, efficient, and somehow made sense even to a non-techie like me. If you need a full-stack developer who can get things done without the developer drama, He's your person.`,
     name: "Reden Samudio",
     title: "DEPED Teacher",
   },
@@ -213,17 +260,17 @@ export const socialMedia = [
   {
     id: 1,
     img: "/github.svg",
-    link: "https://github.com/JCMisa"
+    link: "https://github.com/JCMisa",
   },
   {
     id: 2,
     img: "/facebook.svg",
-    link: "https://www.facebook.com/johncarlomisa26/"
+    link: "https://www.facebook.com/johncarlomisa26/",
   },
   {
     id: 3,
     img: "/linkedin.svg",
-    link: "https://www.linkedin.com/in/john-carlo-misa-80a1b5208/"
+    link: "https://www.linkedin.com/in/john-carlo-misa-80a1b5208/",
   },
 ];
 
@@ -232,66 +279,91 @@ export const projectVideos = [
     id: 1,
     name: "Finatica",
     video: "/projVid/finatica-vid.mp4",
-    techStack: "React and .NetCore"
+    techStack: "React and .NetCore",
   },
   {
     id: 2,
     name: "ReStop",
     video: "/projVid/restop-vid.mp4",
-    techStack: "React and Java SpringBoot"
+    techStack: "React and Java SpringBoot",
   },
   {
     id: 3,
     name: "CuraTech",
     video: "/projVid/curatech-vid.mp4",
-    techStack: "NextJS and Appwrite"
+    techStack: "NextJS and Appwrite",
   },
   {
     id: 4,
     name: "Loom",
     video: "/projVid/loom-vid.mp4",
-    techStack: "NextJS and Clerk"
+    techStack: "NextJS and Clerk",
   },
   {
     id: 5,
     name: "Gemini Clone",
     video: "/projVid/gemini-vid.mp4",
-    techStack: "React and Gemini API"
+    techStack: "React and Gemini API",
   },
   {
     id: 6,
     name: "dictionAIry",
     video: "/projVid/dictionairy-vid.mp4",
-    techStack: "React and Gemini API"
+    techStack: "React and Gemini API",
   },
   {
     id: 7,
     name: "Netflix Clone",
     video: "/projVid/netflix-vid.mp4",
-    techStack: "React"
+    techStack: "React",
   },
   {
     id: 8,
     name: "Apple Website",
     video: "/projVid/Apple iPhone - Google Chrome 2024-07-11 16-39-55.mp4",
-    techStack: "React and ThreeJS"
+    techStack: "React and ThreeJS",
   },
   {
     id: 9,
     name: "SOU MS",
     video: "/projVid/sou-vid.mp4",
-    techStack: "Javascript and PHP"
+    techStack: "Javascript and PHP",
   },
   {
     id: 10,
     name: "Spotify Clone",
     video: "/projVid/spotify-vid.mp4",
-    techStack: "React"
+    techStack: "React",
   },
-]
+  {
+    id: 11,
+    name: "AIIM",
+    video: "/projVid/aiim-vid.mp4",
+    techStack: "NextJS and Neon DB",
+  },
+  {
+    id: 12,
+    name: "ReUP",
+    video: "/projVid/reup-vid.mp4",
+    techStack: "NextJS and Neon DB",
+  },
+  {
+    id: 13,
+    name: "DocSync",
+    video: "/projVid/docsync-vid.mp4",
+    techStack: "NextJS and Liveblocks",
+  },
+];
 
 export const downloadResume = () => {
-  let doc = new jsPDF('portrait', 'px', 'a4', false)
-  doc.addImage('https://i.ibb.co/vdb46Hr/resume.jpg', 'JPG', 0, 0, 393.867, 557) // w-393.867 h-557
-  doc.save('resume.pdf')
-}
+  let doc = new jsPDF("portrait", "px", "a4", false);
+  doc.addImage(
+    "https://i.ibb.co/vdb46Hr/resume.jpg",
+    "JPG",
+    0,
+    0,
+    393.867,
+    557
+  ); // w-393.867 h-557
+  doc.save("resume.pdf");
+};
