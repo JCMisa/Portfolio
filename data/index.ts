@@ -354,13 +354,13 @@ export const projectVideos = [
     id: 11,
     name: "AIIM",
     video: "/projVid/aiim-vid.mp4",
-    techStack: "NextJS and Neon DB",
+    techStack: "NextJS and Neon DB/Drizzle ORM",
   },
   {
     id: 12,
     name: "ReUP",
     video: "/projVid/reup-vid.mp4",
-    techStack: "NextJS and Neon DB",
+    techStack: "NextJS and Neon DB/Drizzle ORM",
   },
   {
     id: 13,
@@ -372,7 +372,7 @@ export const projectVideos = [
     id: 14,
     name: "FinTechFlow",
     video: "/projVid/fintechflow-vid.mp4",
-    techStack: "NextJS and Neon DB",
+    techStack: "NextJS and Neon DB/Drizzle ORM",
   },
 ];
 
