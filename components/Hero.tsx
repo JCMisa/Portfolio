@@ -80,11 +80,15 @@ const Hero = () => {
           />
 
           <div className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            <TextRevealCard
+            {/* <TextRevealCard
               text="Hi! I'm John Carlo"
               revealText="Your Developer "
               className="flex text-center align-middle items-center justify-center"
-            />
+            /> */}
+            <h2 className="text-white font-bold">
+              Hi! I&apos;m{" "}
+              <span className="colored-text">John Carlo S. Misa</span>
+            </h2>
           </div>
 
           <div className="mt-5 relative">

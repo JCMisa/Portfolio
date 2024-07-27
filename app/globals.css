@@ -393,3 +393,9 @@ body {
   margin-right: 1rem;
   fill: currentColor;
 }
+
+.colored-text {
+  background: -webkit-linear-gradient(16deg, #cbacf9, #2e1496);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

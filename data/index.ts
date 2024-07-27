@@ -162,6 +162,21 @@ export const projects = [
     github: "https://github.com/JCMisa/realtime-app",
     live: "https://docsync-flax.vercel.app/",
   },
+  {
+    id: 7,
+    title: "FinTechFlow: Streamline your finances with FinTechFlow.",
+    des: "A user-friendly platform designed to help you effortlessly manage your finances. Create budgets, track expenses, and gain valuable insights through intuitive visualizations to achieve your financial goals.",
+    img: "/fintechflow-img.png",
+    iconLists: [
+      "/next.svg",
+      "/c.svg",
+      "/neondb.png",
+      "/drizzle.png",
+      "/recharts.png",
+    ],
+    github: "https://github.com/JCMisa/expense-tracker",
+    live: "https://fin-tech-flow.vercel.app/",
+  },
 ];
 
 export const testimonials = [
@@ -351,6 +366,12 @@ export const projectVideos = [
     id: 13,
     name: "DocSync",
     video: "/projVid/docsync-vid.mp4",
+    techStack: "NextJS and Liveblocks",
+  },
+  {
+    id: 14,
+    name: "FinTechFlow",
+    video: "/projVid/fintechflow-vid.mp4",
     techStack: "NextJS and Liveblocks",
   },
 ];

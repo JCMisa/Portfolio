@@ -5,7 +5,7 @@ import { EmblaOptionsType } from "embla-carousel";
 import { TypewriterEffect } from "./ui/TypewriterEffect";
 
 const OPTIONS: EmblaOptionsType = { dragFree: true, loop: true };
-const SLIDE_COUNT = 13;
+const SLIDE_COUNT = 14;
 const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
 
 const ProjectHighlights = () => {
