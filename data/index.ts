@@ -372,7 +372,7 @@ export const projectVideos = [
     id: 14,
     name: "FinTechFlow",
     video: "/projVid/fintechflow-vid.mp4",
-    techStack: "NextJS and Liveblocks",
+    techStack: "NextJS and Neon DB",
   },
 ];
 
