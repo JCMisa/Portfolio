@@ -374,6 +374,12 @@ export const projectVideos = [
     video: "/projVid/fintechflow-vid.mp4",
     techStack: "NextJS and Neon DB/Drizzle ORM",
   },
+  {
+    id: 15,
+    name: "cAIre",
+    video: "/projVid/caire-vid.mp4",
+    techStack: "NextJS and .NET Core",
+  },
 ];
 
 export const downloadResume = () => {
