@@ -177,6 +177,21 @@ export const projects = [
     github: "https://github.com/JCMisa/expense-tracker",
     live: "https://fin-tech-flow.vercel.app/",
   },
+  {
+    id: 8,
+    title: "Attendo: Seamlessly manage your students attendance.",
+    des: "Say goodbye to attendance headaches. This cloud-based platform offers real-time tracking, time-saving automation, and valuable insights to optimize your operations.",
+    img: "/attendo1.png",
+    iconLists: [
+      "/next.svg",
+      "/c.svg",
+      "/neondb.png",
+      "/drizzle.png",
+      "/recharts.png",
+    ],
+    github: "https://github.com/JCMisa/attendance-tracker",
+    live: "https://attendance-tracker-xi.vercel.app/",
+  },
 ];
 
 export const testimonials = [
@@ -379,6 +394,12 @@ export const projectVideos = [
     name: "cAIre",
     video: "/projVid/caire-vid.mp4",
     techStack: "NextJS and .NET Core",
+  },
+  {
+    id: 16,
+    name: "Attendo",
+    video: "/projVid/attendo-vid.mp4",
+    techStack: "NextJS and Neon DB/Drizzle ORM",
   },
 ];
 
