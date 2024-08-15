@@ -192,6 +192,21 @@ export const projects = [
     github: "https://github.com/JCMisa/attendance-tracker",
     live: "https://attendance-tracker-xi.vercel.app/",
   },
+  {
+    id: 9,
+    title: "cAIre: Your path to wellness starts with cAIre.",
+    des: "This is a web app entry for Gemini API competition ended last August 12, 2024. This app is a personalized AI advisor for the users' health.",
+    img: "/caire-gemini1.png",
+    iconLists: [
+      "/next.svg",
+      "/c.svg",
+      "/neondb.png",
+      "/drizzle.png",
+      "/recharts.png",
+    ],
+    github: "https://github.com/JCMisa/caire-gemini",
+    live: "https://caire.vercel.app/",
+  },
 ];
 
 export const testimonials = [
@@ -400,6 +415,24 @@ export const projectVideos = [
     name: "Attendo",
     video: "/projVid/attendo-vid.mp4",
     techStack: "NextJS and Neon DB/Drizzle ORM",
+  },
+  {
+    id: 17,
+    name: "cAIre Gemini",
+    video: "/projVid/caire-gemini-vid.mp4",
+    techStack: "NextJS and Neon DB/Drizzle ORM",
+  },
+  {
+    id: 18,
+    name: "Aora",
+    video: "/projVid/aora-vid.mp4",
+    techStack: "Expo and Appwrite",
+  },
+  {
+    id: 19,
+    name: "PurrfectlyMatch",
+    video: "/projVid/pm-vid.mp4",
+    techStack: "Expo and Firebase/Firestore",
   },
 ];
 
