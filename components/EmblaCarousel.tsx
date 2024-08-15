@@ -140,7 +140,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                     muted={true}
                     playsInline
                     preload="none"
-                    className="relative"
+                    className="relative min-h-[22rem] max-h-[22rem]"
                   >
                     <source src={projectVideos[index].video} type="video/mp4" />
                   </video>
