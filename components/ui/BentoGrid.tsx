@@ -59,9 +59,9 @@ export const BentoGridItem = ({
   spareImg?: string;
 }) => {
   const leftLists = [
-    { name: ".Net Core", icon: <MdTrendingFlat />, status: "flat" },
-    { name: "Java", icon: <MdTrendingUp />, status: "up" },
     { name: "Python", icon: <MdTrendingDown />, status: "down" },
+    { name: ".Net Core", icon: <MdTrendingUp />, status: "up" },
+    { name: "Java", icon: <MdTrendingFlat />, status: "flat" },
   ];
   const rightLists = [
     { name: "ReactJS", icon: <MdTrendingUp />, status: "up" },
@@ -191,7 +191,7 @@ export const BentoGridItem = ({
                   <span
                     key={i}
                     className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
-                    lg:opacity-100 rounded-lg text-center bg-[#10132E] flex flex-row gap-2 text-white"
+                    lg:opacity-100 rounded-lg text-center bg-[#10132E] flex flex-row gap-2 items-center text-white"
                   >
                     <p
                       className={`
@@ -213,7 +213,7 @@ export const BentoGridItem = ({
                   <span
                     key={i}
                     className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
-                    lg:opacity-100 rounded-lg text-center bg-[#10132E] flex flex-row gap-2 text-white"
+                    lg:opacity-100 rounded-lg text-center bg-[#10132E] flex flex-row gap-2 items-center text-white"
                   >
                     <p
                       className={`

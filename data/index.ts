@@ -163,7 +163,7 @@ export const projects = [
     live: "https://docsync-flax.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     title: "FinTechFlow: Streamline your finances with FinTechFlow.",
     des: "A user-friendly platform designed to help you effortlessly manage your finances. Create budgets, track expenses, and gain valuable insights through intuitive visualizations to achieve your financial goals.",
     img: "/fintechflow-img.png",
@@ -178,7 +178,7 @@ export const projects = [
     live: "https://fin-tech-flow.vercel.app/",
   },
   {
-    id: 8,
+    id: 9,
     title: "Attendo: Seamlessly manage your students attendance.",
     des: "Say goodbye to attendance headaches. This cloud-based platform offers real-time tracking, time-saving automation, and valuable insights to optimize your operations.",
     img: "/attendo1.png",
@@ -193,7 +193,7 @@ export const projects = [
     live: "https://attendance-tracker-xi.vercel.app/",
   },
   {
-    id: 9,
+    id: 10,
     title: "cAIre: Your path to wellness starts with cAIre.",
     des: "This is a web app entry for Gemini API competition ended last August 12, 2024. This app is a personalized AI advisor for the users' health.",
     img: "/caire-gemini1.png",
